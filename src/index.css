@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'kumbh sans';
+}
+
+.my-container {
+  /* width: 95%;
+  margin: 0 auto; */
+}
+
+@media (min-width: 1024px) {
+  .my-container {
+    /* width: 80%; */
+  }
+}
+
+
+.c-orange {
+  color: hsl(26, 100%, 55%);
+}
+
+.c-pale-orange {
+  color: hsl(25, 100%, 94%);
+}
+
+.c-very dark blue {
+  color: hsl(220, 13%, 13%);
+}
+
+.c-dark-grayish-blue {
+  color: hsl(219, 9%, 45%)
+}
+
+.c-grayish-blue {
+  color: hsl(220, 14%, 75%)
+}
+
+.c-light-grayish-blue {
+  color: hsl(223, 64%, 98%)
+}
